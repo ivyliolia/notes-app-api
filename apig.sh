@@ -5,7 +5,7 @@ apig-test \
   --app-client-id='6eb038uk6t22gkj5qu07um9unb' \
   --cognito-region='us-west-2' \
   --identity-pool-id='us-west-2:3c415bc3-50a4-423b-b1d8-eb96e8579947' \
-  --invoke-url='https://4mfcwpkyt3.execute-api.us-west-2.amazonaws.com/prod' \
+  --invoke-url='https://gtesb4h9qf.execute-api.us-west-2.amazonaws.com/prod' \
   --api-gateway-region='us-west-2' \
   --path-template='/notes' \
   --method='POST' \
