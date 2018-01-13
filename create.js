@@ -4,7 +4,7 @@ import { success, failure } from "./libs/response-lib";
 
 
 export async function main(event, context, callback) {
-  const data = JSON.stringify(event.body);
+  const data = JSON.parse(event.body);
   const params = {
     TableName: "notes",
     Item: {
